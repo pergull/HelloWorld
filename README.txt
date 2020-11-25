@@ -9,6 +9,6 @@ Run server
 npm install express
 node ./server.js
 
-Run HelloWorld
-==============
+Run HelloWorld in web browser
+=============================
 http://localhost:3000/HelloWorld/index.html
