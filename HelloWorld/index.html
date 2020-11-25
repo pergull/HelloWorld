@@ -1,15 +1,14 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 
 <head>
     <title>HelloWorld</title>
 
-    <script src="DisplayHelloWorld.js"></script>
-    <script src="HelloWorld.js"></script>
+    <script type="module">
+        import {HelloWorld} from './HelloWorld.js';
 
-    <script>
         window.onload = function () {
-            var helloWorld = new HelloWorld.HelloWorld();
+            var helloWorld = new HelloWorld();
             helloWorld.run();
         }
     </script>
