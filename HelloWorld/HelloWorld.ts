@@ -1,14 +1,13 @@
-module HelloWorld {
+import {DisplayHelloWorld} from './DisplayHelloWorld.js';
 
-    export class HelloWorld {
+export class HelloWorld {
 
-        displayHelloWorld = new DisplayHelloWorld();
+    displayHelloWorld = new DisplayHelloWorld();
 
-        constructor() {
-        }
+    constructor() {
+    }
 
-        run() {
-            this.displayHelloWorld.display();
-        }
+    run() {
+        this.displayHelloWorld.display();
     }
 }
