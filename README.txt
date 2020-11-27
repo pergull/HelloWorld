@@ -6,7 +6,7 @@ Or open terminal and and run: tsc (by default tsc will use tsconfig.json)
 
 Run web server
 ==============
-npm install express
+npm install express (just do this one time)
 node ./server.js
 
 Run HelloWorld in web browser
