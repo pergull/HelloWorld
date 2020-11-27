@@ -4,8 +4,8 @@ Windows: ctrl+shit+b
 Mac: command+shit+b
 Or open terminal and and run: tsc (by default tsc will use tsconfig.json)
 
-Run server
-==========
+Run web server
+==============
 npm install express
 node ./server.js
 
